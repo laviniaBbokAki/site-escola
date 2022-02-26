@@ -1,7 +1,7 @@
 /* Estilos Gerais */
 
 body {
-  font-size: Arial,Helvetica, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -21,7 +21,7 @@ img {
   position: fixed;
   top: 0;
   width: 100%;
-  background: #223759; /* Amarelo */
+  background: #223759;
   padding: 15px 0;
   z-index: 10;
 }
@@ -31,13 +31,13 @@ img {
 }
 
 .header_menu ul li {
-  display: inline-block;
+  display: inline;
   margin-left: 25px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .header_menu ul li a {
-  color: #000;
+  color: #ecc601;
   font-weight: bold;
   text-transform: uppercase;
   letter-spacing: 0.1em;
@@ -47,9 +47,27 @@ img {
 }
 
 .header_menu ul li a:hover {
-  color: #fff;
+  color: #fff
 }
 
 .header_menu ul li a.menu_ativo {
   color: #fff;
+}
+
+.logotipo_escola img {
+  border-radius: 6px;
+  width: 80px;
+  height: 80px;
+}
+
+
+/* introducao */
+
+.introducao {
+  width: 100px;
+  height: 480px;
+  background: url('../img/fundo.jpg') no=repeat center;
+  background-size: cover;
+  margin-top: 110px;
+  padding-top: 80px;
 }
